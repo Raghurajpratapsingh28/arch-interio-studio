@@ -13,7 +13,7 @@ const HeaderComponent = () => {
     <header className="flex justify-between items-center px-6 absolute z-10 w-full">
       <div className=" flex justify-between w-full items-center py-3 border-b-2 border-white">
         <Link href="/" className="font-bebas text-white text-xl">
-          Watanabe
+          arch Interio Studio
         </Link>
 
         <ul
@@ -34,9 +34,11 @@ const HeaderComponent = () => {
           >
             {showMenu ? "Close" : "Menu"}
           </button>
-          <button className="sm:block font-bebas hidden border-2 border-white rounded-full px-3 py-1 text-white hover:bg-white hover:text-black duration-300">
-            Contact Us
-          </button>
+          <Link href="/contact">
+            <button className="sm:block font-bebas hidden border-2 border-white rounded-full px-3 py-1 text-white hover:bg-white hover:text-black duration-300">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
     </header>

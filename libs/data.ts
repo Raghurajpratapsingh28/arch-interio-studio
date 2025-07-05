@@ -3,6 +3,7 @@ import worksData from '@/data/works.json';
 import servicesData from '@/data/services.json';
 import galleryData from '@/data/gallery.json';
 import postsData from '@/data/posts.json';
+import contactData from '@/data/contact.json';
 
 // Types
 export type ContentType = {
@@ -66,4 +67,8 @@ export async function getDetailPost(slug: string): Promise<Post | null> {
     const posts = postsData.posts;
     const post = posts.find(p => p.slug?.current === slug);
     return post || null;
+}
+
+export async function getContactPage() {
+    return contactData;
 } 

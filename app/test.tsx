@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex xl:flex-row xl:gap-64 flex-col h-full justify-center xl:items-center">
             <div className="flex flex-col h-full sm:justify-center xl:gap-12 xl:text-center">
               <p className="uppercase text-xl">
-                Watanabe Furniture for comfort living
+                arch Interio Studio for comfort living
               </p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
@@ -68,7 +68,7 @@ export default function Home() {
         <div id="container" className=" px-6 sm:px-24 w-full h-full">
           <div className="w-full h-fit">
             <h3 className="text-[100vh] leading-none font-bebas tracking-tighter">
-              WATANABE
+              arch Interio Studio
             </h3>
             <Image
               src="https://i.pinimg.com/564x/9e/1d/bb/9e1dbbf9a91a309d14229f7b3dac4d64.jpg"
@@ -168,7 +168,7 @@ export default function Home() {
   /* <header className="flex justify-between items-center  px-6 absolute z-10 w-full ">
   <div className="flex justify-between w-full items-center py-3 border-b-2 border-white">
     <Link href="/" className="font-bebas text-white text-xl">
-      Watanabe
+      arch Interio Studio
     </Link>
 
     <ul

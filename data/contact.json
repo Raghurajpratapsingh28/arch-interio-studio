@@ -1,0 +1,72 @@
+{
+  "Hero": {
+    "heading": "Get In Touch",
+    "tagline": "Let's discuss your next project",
+    "subtitle": "Ready to bring your vision to life? We'd love to hear from you."
+  },
+  "ContactInfo": {
+    "heading": "Contact Information",
+    "items": [
+      {
+        "type": "email",
+        "label": "Email",
+        "value": "hello@watanabe.com",
+        "icon": "📧"
+      },
+      {
+        "type": "phone",
+        "label": "Phone",
+        "value": "+1 (555) 123-4567",
+        "icon": "📞"
+      },
+      {
+        "type": "location",
+        "label": "Location",
+        "value": "Tokyo, Japan",
+        "icon": "📍"
+      }
+    ]
+  },
+  "Form": {
+    "heading": "Send us a message",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Full Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": false
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true
+      }
+    ],
+    "submitText": "Send Message"
+  },
+  "CallToAction": {
+    "title": "Ready to start your project?",
+    "subtitle": "Let's create something amazing together",
+    "label": "View Our Work",
+    "link": "/works"
+  }
+} 
