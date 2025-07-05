@@ -1,0 +1,226 @@
+{
+    "Heading": "Our Works",
+    "slug": "works",
+    "Hero": {
+        "heroImage": "/images/bruno.jpg",
+        "heading": "Our Works",
+        "tagline": "Showcasing creative projects and innovative solutions"
+    },
+    "Content": [
+        {
+            "type": "project",
+            "excerpt": "A modern e-commerce platform built with Next.js and Stripe integration. Features include real-time inventory management, user authentication, and responsive design.",
+            "tagline": "E-commerce Platform",
+            "projectname": "Modern Store",
+            "location": "San Francisco, CA",
+            "url": "https://modernstore.com",
+            "imageUrls": [
+                {
+                    "url": "/images/mh.jpg"
+                },
+                {
+                    "url": "/images/cfd.jpg"
+                },
+                {
+                    "url": "/images/wooder.png"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "A creative portfolio website for a design agency. Built with React and Framer Motion for smooth animations and interactions.",
+            "tagline": "Portfolio Website",
+            "projectname": "Design Studio",
+            "location": "New York, NY",
+            "url": "https://designstudio.com",
+            "imageUrls": [
+                {
+                    "url": "/images/cycle.jpg"
+                },
+                {
+                    "url": "/images/hybrbase.jpg"
+                },
+                {
+                    "url": "/images/crypto.jpg"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "A real estate platform with advanced search filters, virtual tours, and property management tools. Built with Next.js and MongoDB.",
+            "tagline": "Real Estate Platform",
+            "projectname": "Maison de Villa",
+            "location": "Paris, France",
+            "url": "https://maisondevilla.com",
+            "imageUrls": [
+                {
+                    "url": "/images/maison.png"
+                },
+                {
+                    "url": "/images/mh.jpg"
+                },
+                {
+                    "url": "/images/cfd.jpg"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "A comprehensive task management application with real-time collaboration, project tracking, and team communication features. Built with React, Node.js, and Socket.io.",
+            "tagline": "Project Management Tool",
+            "projectname": "TaskFlow Pro",
+            "location": "Austin, TX",
+            "url": "https://taskflowpro.com",
+            "imageUrls": [
+                {
+                    "url": "/images/books.jpg"
+                },
+                {
+                    "url": "/images/coffees.jpg"
+                },
+                {
+                    "url": "/images/cycle.jpg"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "A cryptocurrency trading dashboard with real-time market data, portfolio tracking, and advanced charting capabilities. Built with Vue.js and WebSocket integration.",
+            "tagline": "Crypto Trading Platform",
+            "projectname": "CryptoTrader",
+            "location": "Singapore",
+            "url": "https://cryptotrader.app",
+            "imageUrls": [
+                {
+                    "url": "/images/crypto.jpg"
+                },
+                {
+                    "url": "/images/hybrbase.jpg"
+                },
+                {
+                    "url": "/images/maison.png"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "An AI-powered content management system with automated SEO optimization, content scheduling, and analytics dashboard. Built with Python, Django, and TensorFlow.",
+            "tagline": "AI Content Platform",
+            "projectname": "ContentAI",
+            "location": "London, UK",
+            "url": "https://contentai.io",
+            "imageUrls": [
+                {
+                    "url": "/images/books.jpg"
+                },
+                {
+                    "url": "/images/bruno1.png"
+                },
+                {
+                    "url": "/images/wooder.png"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "A fitness tracking mobile app with workout planning, nutrition tracking, and social features. Built with React Native and Firebase backend.",
+            "tagline": "Fitness App",
+            "projectname": "FitLife",
+            "location": "Toronto, Canada",
+            "url": "https://fitlife.app",
+            "imageUrls": [
+                {
+                    "url": "/images/cycle.jpg"
+                },
+                {
+                    "url": "/images/coffees.jpg"
+                },
+                {
+                    "url": "/images/mh.jpg"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "A restaurant management system with order processing, inventory management, and customer relationship tools. Built with Angular and .NET Core.",
+            "tagline": "Restaurant Management",
+            "projectname": "DineSmart",
+            "location": "Melbourne, Australia",
+            "url": "https://dinesmart.com",
+            "imageUrls": [
+                {
+                    "url": "/images/coffees.jpg"
+                },
+                {
+                    "url": "/images/maison.png"
+                },
+                {
+                    "url": "/images/bruno.jpg"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "A virtual reality educational platform for immersive learning experiences. Features 3D environments, interactive simulations, and progress tracking.",
+            "tagline": "VR Education Platform",
+            "projectname": "EduVR",
+            "location": "Berlin, Germany",
+            "url": "https://eduvr.com",
+            "imageUrls": [
+                {
+                    "url": "/images/books.jpg"
+                },
+                {
+                    "url": "/images/crypto.jpg"
+                },
+                {
+                    "url": "/images/hybrbase.jpg"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "A sustainable energy monitoring system for smart homes with IoT integration, energy optimization algorithms, and mobile app control.",
+            "tagline": "Smart Energy System",
+            "projectname": "EcoPower",
+            "location": "Stockholm, Sweden",
+            "url": "https://ecopower.systems",
+            "imageUrls": [
+                {
+                    "url": "/images/cycle.jpg"
+                },
+                {
+                    "url": "/images/wooder.png"
+                },
+                {
+                    "url": "/images/bruno1.png"
+                }
+            ]
+        },
+        {
+            "type": "project",
+            "excerpt": "A sustainable energy monitoring system for smart homes with IoT integration, energy optimization algorithms, and mobile app control.",
+            "tagline": "Smart Energy System",
+            "projectname": "EcoPower",
+            "location": "Stockholm, Sweden",
+            "url": "https://ecopower.systems",
+            "imageUrls": [
+                {
+                    "url": "/images/cycle.jpg"
+                },
+                {
+                    "url": "/images/wooder.png"
+                },
+                {
+                    "url": "/images/bruno1.png"
+                }
+            ]
+        }
+    ],
+    "CallToAction": {
+        "_type": "callToAction",
+        "title": "Let's Work Together",
+        "label": "Get In Touch",
+        "link": "/contact"
+    }
+}

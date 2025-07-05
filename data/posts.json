@@ -1,0 +1,79 @@
+{
+    "posts": [
+        {
+            "title": "Getting Started with Next.js 14",
+            "slug": {
+                "current": "getting-started-with-nextjs-14"
+            },
+            "author": "Bruno Truong",
+            "imageUrl": "/images/nextjs.png",
+            "publishedAt": "2024-01-15",
+            "categories": [
+                "Web Development",
+                "Next.js"
+            ],
+            "body": [
+                {
+                    "_type": "block",
+                    "style": "normal",
+                    "children": [
+                        {
+                            "_type": "span",
+                            "text": "Next.js 14 introduces several exciting new features including the App Router, Server Components, and improved performance optimizations. In this post, we'll explore how to get started with the latest version and build modern web applications."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The Future of React Development",
+            "slug": {
+                "current": "future-of-react-development"
+            },
+            "author": "Bruno Truong",
+            "imageUrl": "/images/reactjs.png",
+            "publishedAt": "2024-01-10",
+            "categories": [
+                "React",
+                "Frontend"
+            ],
+            "body": [
+                {
+                    "_type": "block",
+                    "style": "normal",
+                    "children": [
+                        {
+                            "_type": "span",
+                            "text": "React continues to evolve with new features like Concurrent Mode, Suspense, and Server Components. Let's explore what's coming next and how it will change the way we build user interfaces."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Building Scalable APIs with Node.js",
+            "slug": {
+                "current": "building-scalable-apis-with-nodejs"
+            },
+            "author": "Bruno Truong",
+            "imageUrl": "/images/nodejs.png",
+            "publishedAt": "2024-01-05",
+            "categories": [
+                "Backend",
+                "Node.js"
+            ],
+            "body": [
+                {
+                    "_type": "block",
+                    "style": "normal",
+                    "children": [
+                        {
+                            "_type": "span",
+                            "text": "Learn how to build robust and scalable APIs using Node.js, Express, and modern JavaScript features. We'll cover authentication, validation, error handling, and deployment strategies."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

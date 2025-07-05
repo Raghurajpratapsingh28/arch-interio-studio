@@ -1,0 +1,72 @@
+{
+    "Heading": "Our Services",
+    "Content": [
+        {
+            "type": "textWithIllustration",
+            "excerpt": "Custom web applications built with modern technologies like React, Next.js, and TypeScript. We focus on performance, scalability, and user experience.",
+            "heading": "Web Development"
+        },
+        {
+            "type": "textWithIllustration",
+            "excerpt": "Beautiful and intuitive user interfaces designed with user experience in mind. From wireframes to high-fidelity prototypes.",
+            "heading": "UI/UX Design"
+        },
+        {
+            "type": "textWithIllustration",
+            "excerpt": "Robust backend systems and APIs built with Node.js, Python, and modern databases. Secure, scalable, and maintainable solutions.",
+            "heading": "Backend Development"
+        },
+        {
+            "type": "textWithIllustration",
+            "excerpt": "Mobile applications for iOS and Android using React Native and Flutter. Cross-platform solutions that work seamlessly.",
+            "heading": "Mobile Development"
+        },
+        {
+            "type": "textWithIllustration",
+            "excerpt": "E-commerce solutions with payment processing, inventory management, and customer relationship tools.",
+            "heading": "E-commerce Solutions"
+        },
+        {
+            "type": "textWithIllustration",
+            "excerpt": "Digital marketing strategies including SEO, content marketing, and social media management to grow your online presence.",
+            "heading": "Digital Marketing"
+        }
+    ],
+    "Gallery": {
+        "_type": "gallery",
+        "imageUrls": [
+            {
+                "url": "/images/reactjs.png"
+            },
+            {
+                "url": "/images/nextjs.png"
+            },
+            {
+                "url": "/images/typescript.png"
+            },
+            {
+                "url": "/images/nodejs.png"
+            },
+            {
+                "url": "/images/mongodb.png"
+            },
+            {
+                "url": "/images/tailwind.png"
+            }
+        ]
+    },
+    "CallToAction": {
+        "_type": "callToAction",
+        "title": "Start Project",
+        "link": "/contact"
+    },
+    "Video": {
+        "videoLabel": "Our Process",
+        "url": "https://www.youtube.com/embed/NoWyNgAQe34"
+    },
+    "FormContact": {
+        "label": "Contact Us",
+        "heading": "Get In Touch",
+        "form": "contact-form"
+    }
+}

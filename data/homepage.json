@@ -1,0 +1,66 @@
+{
+  "Heading": "Bruno Truong",
+  "slug": "home",
+  "Hero": {
+    "heroImage": "/images/cycle.jpg",
+    "heading": "Bruno Truong",
+    "tagline": "Creative Developer & Designer"
+  },
+  "Content": {
+    "type": "textWithIllustration",
+    "excerpt": "Passionate about creating innovative digital experiences that blend creativity with cutting-edge technology. Specializing in full-stack development, UI/UX design, and creative coding.",
+    "tagline": "Building the future, one pixel at a time",
+    "heading": "ABOUT"
+  },
+  "SectionImageOverlay": {
+    "type": "sectionImageOverlay",
+    "heading": "CREATIVE",
+    "imageOverlay": "/images/bruno1.png"
+  },
+  "Expertises": [
+    {
+      "type": "expertises",
+      "excerpt": "Modern web development with React, Next.js, and TypeScript",
+      "heading": "Web Development",
+      "url": "/images/reactjs.png"
+    },
+    {
+      "type": "expertises",
+      "excerpt": "Creative design solutions with Figma and modern design tools",
+      "heading": "UI/UX Design",
+      "url": "/images/figma.png"
+    },
+    {
+      "type": "expertises",
+      "excerpt": "Full-stack applications with Node.js and modern databases",
+      "heading": "Backend Development",
+      "url": "/images/nodejs.png"
+    }
+  ],
+  "Gallery": {
+    "_type": "gallery",
+    "imageUrls": [
+      {
+        "url": "/images/mh.jpg"
+      },
+      {
+        "url": "/images/cfd.jpg"
+      },
+      {
+        "url": "/images/wooder.png"
+      },
+      {
+        "url": "/images/cycle.jpg"
+      },
+      {
+        "url": "/images/hybrbase.jpg"
+      },
+      {
+        "url": "/images/crypto.jpg"
+      },
+      {
+        "url": "/images/maison.png"
+      }
+    ]
+  }
+}
