@@ -49,62 +49,67 @@ const ContactPage = async () => {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-black p-8 rounded-lg">
-              <h3 className="text-white text-2xl font-bebas mb-6">{Form.heading}</h3>
-              <form className="space-y-4">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {Form.fields.slice(0, 2).map((field, index) => (
-                    <div key={index} className={clsx(field.name === "email" && "sm:col-span-2")}>
-                      <label className="block text-white text-sm font-bold mb-2">
-                        {field.label}
-                        {field.required && <span className="text-red-500">*</span>}
-                      </label>
-                      <input
-                        type={field.type}
-                        name={field.name}
-                        required={field.required}
-                        className="w-full px-4 py-3 bg-white text-black rounded border-2 border-white focus:border-gray-300 focus:outline-none"
-                      />
-                    </div>
-                  ))}
-                </div>
-                
-                {Form.fields.slice(2, 4).map((field, index) => (
-                  <div key={index}>
-                    <label className="block text-white text-sm font-bold mb-2">
-                      {field.label}
-                      {field.required && <span className="text-red-500">*</span>}
-                    </label>
-                    <input
-                      type={field.type}
-                      name={field.name}
-                      required={field.required}
-                      className="w-full px-4 py-3 bg-white text-black rounded border-2 border-white focus:border-gray-300 focus:outline-none"
-                    />
-                  </div>
-                ))}
-
+            <div className="bg-white p-8 rounded-lg border border-gray-200 shadow-lg">
+              <h3 className="text-black text-2xl font-bebas mb-6">{Form.heading}</h3>
+              <form className="flex flex-col gap-4">
                 <div>
-                  <label className="block text-white text-sm font-bold mb-2">
-                    {Form.fields[4].label}
-                    <span className="text-red-500">*</span>
-                  </label>
-                  <textarea
-                    name={Form.fields[4].name}
-                    required={Form.fields[4].required}
-                    rows={6}
-                    className="w-full px-4 py-3 bg-white text-black rounded border-2 border-white focus:border-gray-300 focus:outline-none resize-none"
-                  ></textarea>
+                  <label className="block text-base font-semibold mb-1">Name <span className="text-red-500">*</span></label>
+                  <input type="text" required placeholder="Enter Your Name" className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black transition" />
                 </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-white text-black font-bebas py-3 px-6 border-2 border-white hover:bg-black hover:text-white hover:border-white duration-300 rounded-full"
-                >
-                  {Form.submitText}
-                </button>
+                <div>
+                  <label className="block text-base font-semibold mb-1">Mobile Number <span className="text-red-500">*</span></label>
+                  <input type="tel" required placeholder="Enter Your Mobile Number" className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black transition" />
+                </div>
+                <div>
+                  <label className="block text-base font-semibold mb-1">City <span className="text-red-500">*</span></label>
+                  <input type="text" required placeholder="Enter Your City Name" className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black transition" />
+                </div>
+                <div>
+                  <label className="block text-base font-semibold mb-1">Project Size (SQ Feet) <span className="text-red-500">*</span></label>
+                  <input type="text" required placeholder="Enter Your Project Size" className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black transition" />
+                </div>
+                <div>
+                  <label className="block text-base font-semibold mb-1">Project location <span className="text-red-500">*</span></label>
+                  <input type="text" required placeholder="Enter Your Project location" className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black transition" />
+                </div>
+                <div>
+                  <label className="block text-base font-semibold mb-1">Your Requirements <span className="text-red-500">*</span></label>
+                  <textarea required placeholder="Enter Your Requirements" className="w-full border border-gray-300 rounded-md px-4 py-2 min-h-[80px] focus:outline-none focus:ring-2 focus:ring-black transition" />
+                </div>
+                <button type="submit" className="mt-2 bg-black text-white font-bold py-2 rounded-md hover:bg-gray-900 transition">Submit</button>
               </form>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Map Section */}
+      <section
+        id="section"
+        className="py-24 sm:py-24 relative w-full justify-center flex items-center bg-gray-100"
+      >
+        <div id="container" className="px-6 sm:px-24 w-full h-full">
+          <div className="text-center mb-12">
+            <h2 className="text-black text-4xl font-bebas mb-4">Visit Our Studio</h2>
+            <p className="text-black text-lg opacity-70">Find us in the heart of Tokyo</p>
+          </div>
+          <div className="w-full h-96 rounded-lg overflow-hidden shadow-lg">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.747975750382!2d139.7673068!3d35.6812362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sus!4v1234567890"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="ArchInterio Studio Location"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <div className="mt-8 text-center">
+            <p className="text-black text-lg font-semibold mb-2">ArchInterio Studio</p>
+            <p className="text-black opacity-70">Tokyo, Japan</p>
+            <p className="text-black opacity-70 mt-2">Open Monday - Friday: 9:00 AM - 6:00 PM</p>
           </div>
         </div>
       </section>

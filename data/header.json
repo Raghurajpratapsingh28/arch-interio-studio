@@ -5,6 +5,10 @@
       "href": "/"
     },
     {
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
       "label": "blog",
       "href": "/blog"
     },

@@ -3,6 +3,7 @@ import HeaderComponent from "@/components/header";
 import localFont from "next/font/local";
 import { Metadata } from "next/types";
 import "./globals.css";
+import FloatingContactBar from "@/components/FloatingContactBar";
 const myFont = localFont({
   src: "../public/HousttelySignature-GOonZ.ttf",
   variable: "--font-house",
@@ -26,6 +27,7 @@ export default function RootLayout({
           {children}
           <FooterComponent />
         </div>
+        <FloatingContactBar />
       </body>
     </html>
   );
