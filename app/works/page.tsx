@@ -1,19 +1,55 @@
-export const revalidate = 0;
+"use client";
 
 import { getWorksPage, ImageType, ProjectType } from "@/libs/data";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Marquee from "react-fast-marquee";
 
-const WorksPage = async () => {
-  const data = await getWorksPage();
+const WorksPage = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [data, setData] = React.useState<any>(null);
+
+  React.useEffect(() => {
+    getWorksPage().then(setData);
+  }, []);
+
+  if (!data) return <div className="text-white p-10">Loading...</div>;
 
   const { Content, Hero, CallToAction } = data;
 
   return (
     <React.Fragment>
+      {/* Modal Overlay */}
+      {modalOpen && selectedImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80 transition-opacity"
+          onClick={() => setModalOpen(false)}
+        >
+          <div
+            className="relative max-w-3xl w-[90vw] max-h-[90vh] flex items-center justify-center"
+            onClick={e => e.stopPropagation()}
+          >
+            <button
+              className="absolute top-2 right-2 text-white text-3xl font-bold bg-black bg-opacity-60 rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-90 transition"
+              onClick={() => setModalOpen(false)}
+              aria-label="Close preview"
+            >
+              &times;
+            </button>
+            <Image
+              src={selectedImage}
+              alt="Preview"
+              width={1200}
+              height={800}
+              className="rounded-lg object-contain max-h-[80vh] max-w-full shadow-2xl border-2 border-white"
+              priority
+            />
+          </div>
+        </div>
+      )}
       <section
         id="section"
         className="py-24 overflow-hidden sm:py-24 sm:h-screen sm:max-h-screen relative w-full justify-center flex items-center bg-black"
@@ -84,7 +120,7 @@ const WorksPage = async () => {
                           : "bg-white text-black border-white hover:bg-black hover:border-white hover:text-white"
                       )}
                     >
-                      See More
+                      
                     </Link>
                   </div>
                 </div>
@@ -94,11 +130,15 @@ const WorksPage = async () => {
                     speed={90}
                     pauseOnHover
                   >
-                    {imageUrls?.map((image: ImageType, index: number) => {
+                    {imageUrls?.map((image: ImageType, idx: number) => {
                       return (
                         <div
-                          key={index}
+                          key={idx}
                           className="w-[88vw] overflow-hidden shrink-0 cursor-pointer flex items-center justify-center sm:w-[450px] aspect-video"
+                          onClick={() => {
+                            setSelectedImage(image?.url || "");
+                            setModalOpen(true);
+                          }}
                         >
                           <Image
                             loading="lazy"
@@ -106,7 +146,7 @@ const WorksPage = async () => {
                             alt="Images"
                             width={200}
                             height={300}
-                            className="h-full w-full object-cover px-1"
+                            className="h-full w-full object-cover px-1 hover:scale-105 transition-transform duration-200"
                           />
                         </div>
                       );

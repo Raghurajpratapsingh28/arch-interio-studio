@@ -23,6 +23,7 @@
     "gsap": "^3.12.5",
     "highlight.js": "^11.9.0",
     "imagesloaded": "^5.0.0",
+    "lucide-react": "^0.525.0",
     "next": "^14.1.0",
     "notion-block-renderer": "^2.3.13",
     "notion-to-md": "^3.1.1",
