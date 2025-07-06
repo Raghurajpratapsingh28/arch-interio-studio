@@ -179,9 +179,10 @@ export default async function Home() {
               className="relative rounded-[2.5rem] overflow-hidden shadow-lg flex flex-col justify-end min-h-[450px] h-[55vw] max-h-[500px] group"
               style={{animation: `fadeUp 0.7s ${0.1 * idx + 0.2}s both`}}
             >
-              <img
+              <Image
                 src={pub.img}
                 alt={pub.title}
+                fill
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="relative z-10 p-6 flex flex-col justify-end h-full bg-gradient-to-t from-black/70 via-black/30 to-transparent">

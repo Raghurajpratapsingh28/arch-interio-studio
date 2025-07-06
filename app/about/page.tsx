@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 const founders = [
   {
@@ -49,9 +50,11 @@ const ParallaxHeader = () => (
 
 const AboutSection = () => (
   <section className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-12 items-center">
-    <img
+    <Image
       src="/images/maison.png"
       alt="About Interior"
+      width={600}
+      height={400}
       className="rounded-2xl shadow-2xl w-full object-cover scale-105 hover:scale-110 transition-transform duration-500"
     />
     <div className="bg-gradient-to-br from-white/80 to-gray-50/80 rounded-xl p-8 shadow-lg animate-fade-in">
@@ -60,10 +63,10 @@ const AboutSection = () => (
         Arch Interio Studio <span className="font-semibold italic text-primary">best interior designers in delhi</span> derives its uniqueness and multifacetedness from its founders, who are well-versed in the realm of Architecture. In 2019, Vardha Aggarwal and Chirag Gupta founded Arch Interio Studio with the ambition of delivering the highest quality architecture, planning, and design while providing exceptional customer service.
       </p>
       <p className="mb-4 text-gray-700">
-        Our studio's basic ethos revolves around developing new, appealing, and enchanting solutions for our customers through the rapid development of projects that employ distinctive styles and architecture. In times of confusion or unawareness of what you want, we will assist you in achieving your dreams.
+        Our studio&apos;s basic ethos revolves around developing new, appealing, and enchanting solutions for our customers through the rapid development of projects that employ distinctive styles and architecture. In times of confusion or unawareness of what you want, we will assist you in achieving your dreams.
       </p>
       <p className="text-gray-700">
-        Our mission is established on the conviction that a people-centered approach is at the heart of effective design. We approach each project with a young perspective, leaving our ego at the door, and most importantly, we are all ears! We and our team work together in our thriving studio to create captivating designs that portray each owner's vision statement. We are always determined, evolving, and striving to be better than before.
+        Our mission is established on the conviction that a people-centered approach is at the heart of effective design. We approach each project with a young perspective, leaving our ego at the door, and most importantly, we are all ears! We and our team work together in our thriving studio to create captivating designs that portray each owner&apos;s vision statement. We are always determined, evolving, and striving to be better than before.
       </p>
     </div>
   </section>
@@ -77,9 +80,11 @@ const FoundersSection = () => (
         {founders.map((founder) => (
           <div key={founder.name} className="bg-white rounded-2xl shadow-xl p-0 flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300 max-w-2xl w-full">
             <div className="w-full aspect-square overflow-hidden rounded-2xl shadow-lg mb-6 relative group">
-              <img
+              <Image
                 src={founder.image}
                 alt={founder.name}
+                width={400}
+                height={400}
                 className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
               />
               {/* Overlay for desktop */}
@@ -106,9 +111,11 @@ const TestimonialsSection = () => (
       <h2 className="text-4xl font-extrabold text-center mb-14 text-gray-800">What People Say?</h2>
       {testimonials.map((t, idx) => (
         <div key={idx} className="bg-white rounded-2xl shadow-xl p-10 flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300">
-          <img
+          <Image
             src={t.image}
             alt={t.name}
+            width={112}
+            height={112}
             className="w-28 h-28 object-cover rounded-full mb-6 border-4 border-primary/30 shadow-lg"
           />
           <h3 className="text-xl font-bold mb-2 text-gray-800">{t.name}</h3>
