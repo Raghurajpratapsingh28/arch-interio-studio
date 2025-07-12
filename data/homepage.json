@@ -1,66 +1,54 @@
 {
-  "Heading": "Bruno Truong",
+  "Heading": "Arch Interio Studio",
   "slug": "home",
   "Hero": {
     "heroImage": "/images/cycle.jpg",
-    "heading": "Bruno Truong",
+    "heading": "Arch Interio Studio",
     "tagline": "Creative Developer & Designer"
   },
   "Content": {
     "type": "textWithIllustration",
-    "excerpt": "Passionate about creating innovative digital experiences that blend creativity with cutting-edge technology. Specializing in full-stack development, UI/UX design, and creative coding.",
+    "excerpt": "Welcome to Arch Interio Studio, where creativity meets craftsmanship in interior design, construction, and architectural excellence. We specialize in transforming spaces into inspiring environments that reflect your unique vision and lifestyle. With a passion for innovative design, sustainable building practices, and meticulous attention to detail, our team of experienced architects, designers, and builders collaborates to deliver spaces that are both functional and aesthetically captivating. From modern residential interiors to cutting-edge commercial builds, we approach every project with a commitment to quality, precision, and client satisfaction. Our holistic process integrates architectural expertise, thoughtful interior design, and seamless construction to bring your ideas to life. Let us shape your space into a masterpiece that inspires and endures.",
     "tagline": "Building the future, one pixel at a time",
     "heading": "ABOUT"
   },
   "SectionImageOverlay": {
     "type": "sectionImageOverlay",
-    "heading": "CREATIVE",
+    "heading": "ARCH",
     "imageOverlay": "/images/bruno1.png"
   },
   "Expertises": [
     {
       "type": "expertises",
-      "excerpt": "Modern web development with React, Next.js, and TypeScript",
-      "heading": "Web Development",
-      "url": "/images/reactjs.png"
+      "heading": "Architecture Designing",
+      "url": "/actutechtural-project/ap1.jpeg"
     },
     {
       "type": "expertises",
-      "excerpt": "Creative design solutions with Figma and modern design tools",
-      "heading": "UI/UX Design",
-      "url": "/images/figma.png"
+      "heading": "Interior Designing",
+      "url": "/interior/i1.jpeg"
     },
     {
       "type": "expertises",
-      "excerpt": "Full-stack applications with Node.js and modern databases",
-      "heading": "Backend Development",
-      "url": "/images/nodejs.png"
+      "heading": "Interior Styling",
+      "url": "/bluetheme/bt1.jpeg"
+    },
+    {
+      "type": "expertises",
+      "heading": "Furniture Designing",
+      "url": "/images/mh.jpg"
     }
   ],
   "Gallery": {
     "_type": "gallery",
     "imageUrls": [
-      {
-        "url": "/images/mh.jpg"
-      },
-      {
-        "url": "/images/cfd.jpg"
-      },
-      {
-        "url": "/images/wooder.png"
-      },
-      {
-        "url": "/images/cycle.jpg"
-      },
-      {
-        "url": "/images/hybrbase.jpg"
-      },
-      {
-        "url": "/images/crypto.jpg"
-      },
-      {
-        "url": "/images/maison.png"
-      }
+      { "url": "/interior/i3.jpeg" },
+      { "url": "/interior/i4.jpeg" },
+      { "url": "/rudra-group/rg3.jpeg" },
+      { "url": "/bluetheme/bt5.jpeg" },
+      { "url": "/villa/v4.jpeg" },
+      { "url": "/actutechtural-project/ap6.jpeg" },
+      { "url": "/Omax-Regency-Project/omax5.jpeg" }
     ]
   }
 }

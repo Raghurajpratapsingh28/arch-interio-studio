@@ -14,14 +14,16 @@ interface HeroSectionProps {
 
 // Array of hero images for the carousel
 const heroImages = [
-  "/images/cycle.jpg",
-  "/images/bruno.jpg",
-  "/images/coffees.jpg",
-  "/images/books.jpg",
-  "/images/mh.jpg",
-  "/images/cfd.jpg",
-  "/images/hybrbase.jpg",
-  "/images/crypto.jpg"
+  "/interior/i1.jpeg",
+  "/interior/i2.jpeg",
+  "/rudra-group/rg4.jpeg",
+  "/bluetheme/bt6.jpeg", 
+  "/villa/v7.jpeg",
+  "/actutechtural-project/ap7.jpeg",
+  "/Omax-Regency-Project/omax3.jpeg",
+
+
+  
 ];
 
 export default function HeroSection({ hero }: HeroSectionProps) {
@@ -34,7 +36,7 @@ export default function HeroSection({ hero }: HeroSectionProps) {
       setCurrentImageIndex((prevIndex) => 
         prevIndex === heroImages.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
@@ -52,7 +54,7 @@ export default function HeroSection({ hero }: HeroSectionProps) {
             src={image}
             alt={`Hero Background ${index + 1}`}
             fill
-            className={`w-full h-full object-cover absolute transition-transform duration-1000 ease-in-out ${
+            className={`w-full h-full object-cover absolute transition-transform duration-500 ease-in-out ${
               index === currentImageIndex 
                 ? 'translate-x-0' 
                 : index < currentImageIndex 

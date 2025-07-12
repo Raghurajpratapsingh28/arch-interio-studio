@@ -38,7 +38,7 @@ export default function ContactFormSection() {
           <div className="w-full h-80 md:h-full rounded-xl overflow-hidden shadow-lg border border-gray-200">
             <iframe
               title="Google Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14014.01399336713!2d77.068899!3d28.667856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d035b6b6b6b6b%3A0x7b7b7b7b7b7b7b7b!2sDelhi!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3558.954866750857!2d80.992578!3d26.873175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUyJzIzLjQiTiA4MMKwNTknMzMuMyJF!5e0!3m2!1sen!2sin!4v1752338550592!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}

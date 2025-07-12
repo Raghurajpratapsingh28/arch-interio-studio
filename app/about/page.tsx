@@ -30,7 +30,7 @@ const testimonials = [
 const ParallaxHeader = () => (
   <div
     style={{
-      backgroundImage: 'linear-gradient(rgba(30,30,30,0.5),rgba(30,30,30,0.5)), url("/images/mh.jpg")',
+      backgroundImage: 'linear-gradient(rgba(30,30,30,0.5),rgba(30,30,30,0.5)), url("/actutechtural-project/ap10.jpeg")',
       backgroundAttachment: "fixed",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
@@ -51,7 +51,7 @@ const ParallaxHeader = () => (
 const AboutSection = () => (
   <section className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-12 items-center">
     <Image
-      src="/images/maison.png"
+      src="/interior/i4.jpeg"
       alt="About Interior"
       width={600}
       height={400}
@@ -60,13 +60,10 @@ const AboutSection = () => (
     <div className="bg-gradient-to-br from-white/80 to-gray-50/80 rounded-xl p-8 shadow-lg animate-fade-in">
       <h2 className="text-4xl font-extrabold mb-6 text-gray-800">About Us</h2>
       <p className="mb-4 text-lg text-gray-700">
-        Arch Interio Studio <span className="font-semibold italic text-primary">best interior designers in delhi</span> derives its uniqueness and multifacetedness from its founders, who are well-versed in the realm of Architecture. In 2019, Vardha Aggarwal and Chirag Gupta founded Arch Interio Studio with the ambition of delivering the highest quality architecture, planning, and design while providing exceptional customer service.
-      </p>
-      <p className="mb-4 text-gray-700">
-        Our studio&apos;s basic ethos revolves around developing new, appealing, and enchanting solutions for our customers through the rapid development of projects that employ distinctive styles and architecture. In times of confusion or unawareness of what you want, we will assist you in achieving your dreams.
+        Welcome to Arch Interio Studio, where creativity meets craftsmanship in interior design, construction, and architectural excellence. We specialize in transforming spaces into inspiring environments that reflect your unique vision and lifestyle. With a passion for innovative design, sustainable building practices, and meticulous attention to detail, our team of experienced architects, designers, and builders collaborates to deliver spaces that are both functional and aesthetically captivating.
       </p>
       <p className="text-gray-700">
-        Our mission is established on the conviction that a people-centered approach is at the heart of effective design. We approach each project with a young perspective, leaving our ego at the door, and most importantly, we are all ears! We and our team work together in our thriving studio to create captivating designs that portray each owner&apos;s vision statement. We are always determined, evolving, and striving to be better than before.
+        From modern residential interiors to cutting-edge commercial builds, we approach every project with a commitment to quality, precision, and client satisfaction. Our holistic process integrates architectural expertise, thoughtful interior design, and seamless construction to bring your ideas to life. Let us shape your space into a masterpiece that inspires and endures.
       </p>
     </div>
   </section>

@@ -25,7 +25,7 @@ export default async function Home() {
       <ImageOverlaySection sectionImageOverlay={SectionImageOverlay} />
       <ServicesSection />
       <GallerySection gallery={Gallery} />
-      <PublicationsSection />
+      {/* <PublicationsSection /> */}
       <BlogSection />
       <FAQSection />
       <ExpertiseSection expertises={Expertises} />

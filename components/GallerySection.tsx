@@ -16,7 +16,7 @@ export default function GallerySection({ gallery }: GallerySectionProps) {
     >
       <div id="container" className="px-6 sm:px-24 w-full h-full">
         <div className="w-full relative mb-6 sm:mb-0">
-          <button className="sm:absolute z-10 top-0 left-0 border-2 border-black rounded-full px-3 py-1 hover:bg-black hover:text-white duration-300 font-bebas">
+          <button className="sm:absolute z-10 top-0 left-0 border-2 border-black rounded-full px-3 py-1 hover:bg-black hover:text-white duration-600 font-bebas">
             See Our Works
           </button>
         </div>
@@ -25,13 +25,13 @@ export default function GallerySection({ gallery }: GallerySectionProps) {
             <div className="flex">
               {gallery.imageUrls.map((image: ImageType, index: number) => {
                 return (
-                  <div key={index} className="sm:w-[33vw] h-full">
+                  <div key={index} className="sm:w-[33vw] h-[400px] flex items-center justify-center">
                     <Image
                       src={image.url}
                       alt=""
-                      width={320}
-                      height={320}
-                      className="h-full w-full object-cover"
+                      width={400}
+                      height={400}
+                      className="w-full h-full object-cover"
                     />
                   </div>
                 );

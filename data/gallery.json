@@ -5,6 +5,198 @@
         "_type": "gallery",
         "imageUrls": [
             {
+                "url": "/villa/v1.jpeg"
+            },
+            {
+                "url": "/villa/v2.jpeg"
+            },
+            {
+                "url": "/villa/v3.jpeg"
+            },
+            {
+                "url": "/villa/v4.jpeg"
+            },
+            {
+                "url": "/villa/v5.jpeg"
+            },
+            {
+                "url": "/villa/v6.jpeg"
+            },
+            {
+                "url": "/villa/v7.jpeg"
+            },
+            {
+                "url": "/villa/v8.jpeg"
+            },
+            {
+                "url": "/villa/v9.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg1.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg2.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg3.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg4.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg5.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg6.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg7.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg8.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg9.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg10.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg11.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg12.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg13.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg14.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg15.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg17.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg18.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg19.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg20.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap1.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap2.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap3.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap4.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap5.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap6.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap7.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap8.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap9.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap10.jpeg"
+            },
+            {
+                "url": "/actutechtural-project/ap11.jpeg"
+            },
+            {
+                "url": "/bluetheme/bt1.jpeg"
+            },
+            {
+                "url": "/bluetheme/bt2.jpeg"
+            },
+            {
+                "url": "/bluetheme/bt3.jpeg"
+            },
+            {
+                "url": "/bluetheme/bt4.jpeg"
+            },
+            {
+                "url": "/bluetheme/bt5.jpeg"
+            },
+            {
+                "url": "/bluetheme/bt6.jpeg"
+            },
+            {
+                "url": "/interior/i1.jpeg"
+            },
+            {
+                "url": "/interior/i2.jpeg"
+            },
+            {
+                "url": "/interior/i3.jpeg"
+            },
+            {
+                "url": "/interior/i4.jpeg"
+            },
+            {
+                "url": "/interior/i5.jpeg"
+            },
+            {
+                "url": "/interior/i6.jpeg"
+            },
+            {
+                "url": "/interior/i7.jpeg"
+            },
+            {
+                "url": "/interior/i8.jpeg"
+            },
+            {
+                "url": "/interior/i9.jpeg"
+            },
+            {
+                "url": "/interior/i10.jpeg"
+            },
+            {
+                "url": "/interior/i11.jpeg"
+            },
+            {
+                "url": "/interior/i12.jpeg"
+            },
+            {
+                "url": "/Omax-Regency-Project/omax1.jpeg"
+            },
+            {
+                "url": "/Omax-Regency-Project/omax2.jpeg"
+            },
+            {
+                "url": "/Omax-Regency-Project/omax3.jpeg"
+            },
+            {
+                "url": "/Omax-Regency-Project/omax4.jpeg"
+            },
+            {
+                "url": "/Omax-Regency-Project/omax5.jpeg"
+            },
+            {
+                "url": "/Omax-Regency-Project/omax6.jpeg"
+            },
+            {
+                "url": "/Omax-Regency-Project/omax7.jpeg"
+            },
+            {
                 "url": "/images/mh.jpg"
             },
             {
@@ -21,111 +213,6 @@
             },
             {
                 "url": "/images/crypto.jpg"
-            },
-            {
-                "url": "/images/maison.png"
-            },
-            {
-                "url": "/images/books.jpg"
-            },
-            {
-                "url": "/images/coffees.jpg"
-            },
-            {
-                "url": "/images/bruno.jpg"
-            },
-            {
-                "url": "/images/bruno1.png"
-            },
-            {
-                "url": "/images/maison.png"
-            },
-            {
-                "url": "/images/books.jpg"
-            },
-            {
-                "url": "/images/coffees.jpg"
-            },
-            {
-                "url": "/images/bruno.jpg"
-            },
-            {
-                "url": "/images/bruno1.png"
-            },
-            {
-                "url": "/images/maison.png"
-            },
-            {
-                "url": "/images/books.jpg"
-            },
-            {
-                "url": "/images/coffees.jpg"
-            },
-            {
-                "url": "/images/bruno.jpg"
-            },
-            {
-                "url": "/images/bruno1.png"
-            },
-            {
-                "url": "/images/maison.png"
-            },
-            {
-                "url": "/images/books.jpg"
-            },
-            {
-                "url": "/images/coffees.jpg"
-            },
-            {
-                "url": "/images/bruno.jpg"
-            },
-            {
-                "url": "/images/bruno1.png"
-            },
-            {
-                "url": "/images/maison.png"
-            },
-            {
-                "url": "/images/books.jpg"
-            },
-            {
-                "url": "/images/coffees.jpg"
-            },
-            {
-                "url": "/images/bruno.jpg"
-            },
-            {
-                "url": "/images/bruno1.png"
-            },
-            {
-                "url": "/images/maison.png"
-            },
-            {
-                "url": "/images/books.jpg"
-            },
-            {
-                "url": "/images/coffees.jpg"
-            },
-            {
-                "url": "/images/bruno.jpg"
-            },
-            {
-                "url": "/images/bruno1.png"
-            },
-            {
-                "url": "/images/maison.png"
-            },
-            {
-                "url": "/images/books.jpg"
-            },
-            {
-                "url": "/images/coffees.jpg"
-            },
-            {
-                "url": "/images/bruno.jpg"
-            },
-            {
-                "url": "/images/bruno1.png"
             },
             {
                 "url": "/images/maison.png"

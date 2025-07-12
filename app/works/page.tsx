@@ -52,7 +52,7 @@ const WorksPage = () => {
       )}
       <section
         id="section"
-        className="py-24 overflow-hidden sm:py-24 sm:h-screen sm:max-h-screen relative w-full justify-center flex items-center bg-black"
+        className="pt-12 pb-24 overflow-hidden sm:pt-12 sm:pb-24 sm:h-screen sm:max-h-screen relative w-full justify-center flex items-center bg-black"
       >
         <div id="container" className=" px-6 sm:px-24 w-full h-full">
           <h1 className="text-white text-6xl font-bebas">{Hero.heading}</h1>
@@ -60,16 +60,18 @@ const WorksPage = () => {
             <span className="text-md block italic font-bold text-white">
               {Hero.tagline}
             </span>
-            <iframe
+            <video
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/NoWyNgAQe34?si=Jthrx77fB35CoOlS&amp;start=10&autoplay=1&mute=1"
-              title="YouTube video player"
-              allow="autoplay; muted;"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
+              autoPlay
+              muted
+              loop
+              playsInline
               className="w-full h-full object-cover"
-            ></iframe>
+            >
+              <source src="/Omax-Regency-Project/omax-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </section>

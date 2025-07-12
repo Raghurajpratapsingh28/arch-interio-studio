@@ -9,288 +9,299 @@
     "Content": [
         {
             "type": "project",
-            "excerpt": "A modern e-commerce platform built with Next.js and Stripe integration. Features include real-time inventory management, user authentication, and responsive design.",
-            "tagline": "E-commerce Platform",
-            "projectname": "Modern Store",
-            "location": "San Francisco, CA",
-            "url": "https://modernstore.com",
+            "excerpt": "A modern blue-themed interior design project featuring contemporary aesthetics with sophisticated color palettes and innovative spatial solutions.",
+            "tagline": "Blue Theme",
+            "projectname": "Blue Theme Project",
+            "location": "Mumbai, India",
+            "url": "#",
             "imageUrls": [
                 {
-                    "url": "/images/mh.jpg"
+                    "url": "/bluetheme/bt1.jpeg"
                 },
                 {
-                    "url": "/images/cfd.jpg"
+                    "url": "/bluetheme/bt2.jpeg"
                 },
                 {
-                    "url": "/images/wooder.png"
+                    "url": "/bluetheme/bt3.jpeg"
                 },
                 {
-                    "url": "/images/wooder.png"
+                    "url": "/bluetheme/bt4.jpeg"
                 },
                 {
-                    "url": "/images/wooder.png"
+                    "url": "/bluetheme/bt5.jpeg"
                 },
                 {
-                    "url": "/images/wooder.png"
-                },
-                {
-                    "url": "/images/wooder.png"
-                },
-                {
-                    "url": "/images/wooder.png"
-                },
-                {
-                    "url": "/images/wooder.png"
-                },
-                {
-                    "url": "/images/wooder.png"
-                },
-                {
-                    "url": "/images/wooder.png"
-                },
-                {
-                    "url": "/images/wooder.png"
-                },
-                {
-                    "url": "/images/wooder.png"
-                },
-                {
-                    "url": "/images/wooder.png"
-                },
-                {
-                    "url": "/images/wooder.png"
+                    "url": "/bluetheme/bt6.jpeg"
                 }
             ]
         },
         {
             "type": "project",
-            "excerpt": "A creative portfolio website for a design agency. Built with React and Framer Motion for smooth animations and interactions.",
-            "tagline": "Portfolio Website",
-            "projectname": "Design Studio",
-            "location": "New York, NY",
-            "url": "https://designstudio.com",
+            "excerpt": "Comprehensive interior design project showcasing modern living spaces with elegant furnishings, optimal lighting, and functional layouts.",
+            "tagline": "Interior Design",
+            "projectname": "Interior Design Project",
+            "location": "Delhi, India",
+            "url": "#",
             "imageUrls": [
                 {
-                    "url": "/images/cycle.jpg"
+                    "url": "/interior/i1.jpeg"
                 },
                 {
-                    "url": "/images/hybrbase.jpg"
+                    "url": "/interior/i2.jpeg"
                 },
                 {
-                    "url": "/images/crypto.jpg"
+                    "url": "/interior/i3.jpeg"
                 },
                 {
-                    "url": "/images/hybrbase.jpg"
+                    "url": "/interior/i4.jpeg"
                 },
                 {
-                    "url": "/images/crypto.jpg"
+                    "url": "/interior/i5.jpeg"
                 },
                 {
-                    "url": "/images/hybrbase.jpg"
+                    "url": "/interior/i6.jpeg"
                 },
                 {
-                    "url": "/images/crypto.jpg"
+                    "url": "/interior/i7.jpeg"
                 },
                 {
-                    "url": "/images/hybrbase.jpg"
+                    "url": "/interior/i8.jpeg"
                 },
                 {
-                    "url": "/images/crypto.jpg"
+                    "url": "/interior/i9.jpeg"
                 },
                 {
-                    "url": "/images/hybrbase.jpg"
+                    "url": "/interior/i10.jpeg"
                 },
                 {
-                    "url": "/images/crypto.jpg"
+                    "url": "/interior/i11.jpeg"
                 },
                 {
-                    "url": "/images/hybrbase.jpg"
-                },
-                {
-                    "url": "/images/crypto.jpg"
-                },
-                {
-                    "url": "/images/hybrbase.jpg"
-                },
-                {
-                    "url": "/images/crypto.jpg"
-                },
-                {
-                    "url": "/images/hybrbase.jpg"
-                },
-                {
-                    "url": "/images/crypto.jpg"
+                    "url": "/interior/i12.jpeg"
                 }
             ]
         },
         {
             "type": "project",
-            "excerpt": "A real estate platform with advanced search filters, virtual tours, and property management tools. Built with Next.js and MongoDB.",
-            "tagline": "Real Estate Platform",
-            "projectname": "Maison de Villa",
-            "location": "Paris, France",
-            "url": "https://maisondevilla.com",
+            "excerpt": "Luxury villa design project featuring premium architectural elements, spacious layouts, and high-end finishes for sophisticated living.",
+            "tagline": "Villa Design",
+            "projectname": "Villa Project",
+            "location": "Bangalore, India",
+            "url": "#",
             "imageUrls": [
                 {
-                    "url": "/images/maison.png"
+                    "url": "/villa/v1.jpeg"
                 },
                 {
-                    "url": "/images/mh.jpg"
+                    "url": "/villa/v2.jpeg"
                 },
                 {
-                    "url": "/images/cfd.jpg"
+                    "url": "/villa/v3.jpeg"
+                },
+                {
+                    "url": "/villa/v4.jpeg"
+                },
+                {
+                    "url": "/villa/v5.jpeg"
+                },
+                {
+                    "url": "/villa/v6.jpeg"
+                },
+                {
+                    "url": "/villa/v7.jpeg"
+                },
+                {
+                    "url": "/villa/v8.jpeg"
+                },
+                {
+                    "url": "/villa/v9.jpeg"
                 }
             ]
         },
         {
             "type": "project",
-            "excerpt": "A comprehensive task management application with real-time collaboration, project tracking, and team communication features. Built with React, Node.js, and Socket.io.",
-            "tagline": "Project Management Tool",
-            "projectname": "TaskFlow Pro",
-            "location": "Austin, TX",
-            "url": "https://taskflowpro.com",
+            "excerpt": "Architectural project showcasing innovative design concepts, structural excellence, and sustainable building practices for modern construction.",
+            "tagline": "Architectural Project",
+            "projectname": "Acutechtural Project",
+            "location": "Pune, India",
+            "url": "#",
             "imageUrls": [
                 {
-                    "url": "/images/books.jpg"
+                    "url": "/actutechtural-project/ap1.jpeg"
                 },
                 {
-                    "url": "/images/coffees.jpg"
+                    "url": "/actutechtural-project/ap2.jpeg"
                 },
                 {
-                    "url": "/images/cycle.jpg"
+                    "url": "/actutechtural-project/ap3.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap4.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap5.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap6.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap7.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap8.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap9.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap10.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap11.jpeg"
                 }
             ]
         },
         {
             "type": "project",
-            "excerpt": "A cryptocurrency trading dashboard with real-time market data, portfolio tracking, and advanced charting capabilities. Built with Vue.js and WebSocket integration.",
-            "tagline": "Crypto Trading Platform",
-            "projectname": "CryptoTrader",
-            "location": "Singapore",
-            "url": "https://cryptotrader.app",
+            "excerpt": "Corporate office design project for Rudra Group featuring modern workspace solutions, collaborative areas, and professional aesthetics.",
+            "tagline": "Corporate Design",
+            "projectname": "Rudra Group",
+            "location": "Chennai, India",
+            "url": "#",
             "imageUrls": [
                 {
-                    "url": "/images/crypto.jpg"
+                    "url": "/rudra-group/rg1.jpeg"
                 },
                 {
-                    "url": "/images/hybrbase.jpg"
+                    "url": "/rudra-group/rg2.jpeg"
                 },
                 {
-                    "url": "/images/maison.png"
+                    "url": "/rudra-group/rg3.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg4.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg5.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg6.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg7.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg8.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg9.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg10.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg11.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg12.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg13.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg14.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg15.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg17.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg18.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg19.jpeg"
+                },
+                {
+                    "url": "/rudra-group/rg20.jpeg"
                 }
             ]
         },
         {
             "type": "project",
-            "excerpt": "An AI-powered content management system with automated SEO optimization, content scheduling, and analytics dashboard. Built with Python, Django, and TensorFlow.",
-            "tagline": "AI Content Platform",
-            "projectname": "ContentAI",
-            "location": "London, UK",
-            "url": "https://contentai.io",
+            "excerpt": "Luxury residential project featuring premium amenities, sophisticated design elements, and exclusive living spaces for discerning clients.",
+            "tagline": "Luxury Residential",
+            "projectname": "Omax Regency Project",
+            "location": "Hyderabad, India",
+            "url": "#",
             "imageUrls": [
                 {
-                    "url": "/images/books.jpg"
+                    "url": "/Omax-Regency-Project/omax1.jpeg"
                 },
                 {
-                    "url": "/images/bruno1.png"
+                    "url": "/Omax-Regency-Project/omax2.jpeg"
                 },
                 {
-                    "url": "/images/wooder.png"
+                    "url": "/Omax-Regency-Project/omax3.jpeg"
+                },
+                {
+                    "url": "/Omax-Regency-Project/omax4.jpeg"
+                },
+                {
+                    "url": "/Omax-Regency-Project/omax5.jpeg"
+                },
+                {
+                    "url": "/Omax-Regency-Project/omax6.jpeg"
+                },
+                {
+                    "url": "/Omax-Regency-Project/omax7.jpeg"
                 }
             ]
         },
         {
             "type": "project",
-            "excerpt": "A fitness tracking mobile app with workout planning, nutrition tracking, and social features. Built with React Native and Firebase backend.",
-            "tagline": "Fitness App",
-            "projectname": "FitLife",
-            "location": "Toronto, Canada",
-            "url": "https://fitlife.app",
+            "excerpt": "Comprehensive interior design project showcasing modern living spaces with elegant furnishings, optimal lighting, and functional layouts.",
+            "tagline": "Interior Design",
+            "projectname": "Interior Design Project",
+            "location": "Delhi, India",
+            "url": "#",
             "imageUrls": [
                 {
-                    "url": "/images/cycle.jpg"
+                    "url": "/interior/i1.jpeg"
                 },
                 {
-                    "url": "/images/coffees.jpg"
+                    "url": "/interior/i2.jpeg"
                 },
                 {
-                    "url": "/images/mh.jpg"
-                }
-            ]
-        },
-        {
-            "type": "project",
-            "excerpt": "A restaurant management system with order processing, inventory management, and customer relationship tools. Built with Angular and .NET Core.",
-            "tagline": "Restaurant Management",
-            "projectname": "DineSmart",
-            "location": "Melbourne, Australia",
-            "url": "https://dinesmart.com",
-            "imageUrls": [
-                {
-                    "url": "/images/coffees.jpg"
+                    "url": "/interior/i3.jpeg"
                 },
                 {
-                    "url": "/images/maison.png"
+                    "url": "/interior/i4.jpeg"
                 },
                 {
-                    "url": "/images/bruno.jpg"
-                }
-            ]
-        },
-        {
-            "type": "project",
-            "excerpt": "A virtual reality educational platform for immersive learning experiences. Features 3D environments, interactive simulations, and progress tracking.",
-            "tagline": "VR Education Platform",
-            "projectname": "EduVR",
-            "location": "Berlin, Germany",
-            "url": "https://eduvr.com",
-            "imageUrls": [
-                {
-                    "url": "/images/books.jpg"
+                    "url": "/interior/i5.jpeg"
                 },
                 {
-                    "url": "/images/crypto.jpg"
+                    "url": "/interior/i6.jpeg"
                 },
                 {
-                    "url": "/images/hybrbase.jpg"
-                }
-            ]
-        },
-        {
-            "type": "project",
-            "excerpt": "A sustainable energy monitoring system for smart homes with IoT integration, energy optimization algorithms, and mobile app control.",
-            "tagline": "Smart Energy System",
-            "projectname": "EcoPower",
-            "location": "Stockholm, Sweden",
-            "url": "https://ecopower.systems",
-            "imageUrls": [
-                {
-                    "url": "/images/cycle.jpg"
+                    "url": "/interior/i7.jpeg"
                 },
                 {
-                    "url": "/images/wooder.png"
+                    "url": "/interior/i8.jpeg"
                 },
                 {
-                    "url": "/images/bruno1.png"
-                }
-            ]
-        },
-        {
-            "type": "project",
-            "excerpt": "A sustainable energy monitoring system for smart homes with IoT integration, energy optimization algorithms, and mobile app control.",
-            "tagline": "Smart Energy System",
-            "projectname": "EcoPower",
-            "location": "Stockholm, Sweden",
-            "url": "https://ecopower.systems",
-            "imageUrls": [
-                {
-                    "url": "/images/cycle.jpg"
+                    "url": "/interior/i9.jpeg"
                 },
                 {
-                    "url": "/images/wooder.png"
+                    "url": "/interior/i10.jpeg"
                 },
                 {
-                    "url": "/images/bruno1.png"
+                    "url": "/interior/i11.jpeg"
+                },
+                {
+                    "url": "/interior/i12.jpeg"
                 }
             ]
         }
