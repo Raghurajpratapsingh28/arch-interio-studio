@@ -1,7 +1,15 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 
-export default function ContactFormSection() {
+interface ContactPageClientProps {
+  data: any;
+}
+
+const ContactPageClient: React.FC<ContactPageClientProps> = ({ data }) => {
+  const { Hero, ContactInfo, Form, CallToAction } = data;
+
+  // Add form state and handlers
   const [form, setForm] = useState({
     name: "",
     mobile: "",
@@ -43,12 +51,48 @@ export default function ContactFormSection() {
     }
   };
 
+  // Helper to filter only email, phone, location
+  const filteredContactItems = ContactInfo.items.filter((item: any) => {
+    const label = item.label.toLowerCase();
+    return label.includes("email") || label.includes("phone") || label.includes("location");
+  });
+
   return (
-    <section className="w-full flex flex-col items-center justify-center py-16 bg-white">
-      <div className="w-full max-w-5xl px-4 flex flex-col md:flex-row gap-8 md:gap-0 md:justify-between md:items-stretch shadow-xl rounded-2xl bg-white border border-gray-200">
-        {/* Form */}
-        <div className="flex-1 p-8 flex flex-col justify-center rounded-l-2xl">
-          <h2 className="text-black font-bebas text-3xl sm:text-4xl font-bold mb-6">Get In Touch</h2>
+    <React.Fragment>
+      {/* Hero Section */}
+      <section
+        id="section"
+        className="py-24 overflow-hidden sm:py-24 sm:h-screen sm:max-h-screen relative w-full justify-center flex items-center bg-black"
+      >
+        <div id="container" className="px-6 sm:px-24 w-full h-full">
+          <div className="flex flex-col justify-center h-full">
+            <h1 className="text-white text-6xl font-bebas mb-6">{Hero.heading}</h1>
+            <p className="text-white text-xl mb-4">{Hero.tagline}</p>
+            <p className="text-white text-lg opacity-80">{Hero.subtitle}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Info Section (email, phone, location) */}
+      <section className="py-12 bg-white w-full flex flex-col items-center">
+        <h2 className="text-black text-4xl font-bebas mb-8">{ContactInfo.heading}</h2>
+        <div className="flex flex-col sm:flex-row gap-8 w-full max-w-2xl justify-center items-center">
+          {filteredContactItems.map((item: any, index: number) => (
+            <div key={index} className="flex items-center space-x-4">
+              <span className="text-2xl">{item.icon}</span>
+              <div>
+                <p className="text-black font-bold">{item.label}</p>
+                <p className="text-black opacity-70">{item.value}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Contact Form Section */}
+      <section className="py-12 bg-white w-full flex flex-col items-center">
+        <div className="w-full max-w-xl">
+          <h3 className="text-black text-2xl font-bebas mb-6">{Form.heading}</h3>
           <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
             <div>
               <label className="block text-base font-semibold mb-1">Name <span className="text-red-500">*</span></label>
@@ -81,22 +125,63 @@ export default function ContactFormSection() {
             {status === "error" && <p className="text-red-600 mt-2">Failed to send message. Please try again.</p>}
           </form>
         </div>
-        {/* Map */}
-        <div className="flex-1 p-4 flex items-center justify-center rounded-r-2xl">
-          <div className="w-full h-80 md:h-full rounded-xl overflow-hidden shadow-lg border border-gray-200">
+      </section>
+
+      {/* Map Section */}
+      <section
+        id="section"
+        className="py-12 bg-gray-100 w-full flex flex-col items-center"
+      >
+        <div className="w-full max-w-4xl">
+          <div className="text-center mb-8">
+            <h2 className="text-black text-4xl font-bebas mb-4">Visit Our Studio</h2>
+            <p className="text-black text-lg opacity-70">Find us in the heart of Tokyo</p>
+          </div>
+          <div className="w-full h-[500px] md:h-[600px] rounded-lg overflow-hidden shadow-lg">
             <iframe
-              title="Google Map"
               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3558.954866750857!2d80.992578!3d26.873175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUyJzIzLjQiTiA4MMKwNTknMzMuMyJF!5e0!3m2!1sen!2sin!4v1752338550592!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
-              allowFullScreen={true}
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="Arch Interio Studio Location"
+              className="w-full h-full"
             ></iframe>
           </div>
+          <div className="mt-8 text-center">
+            <p className="text-black text-lg font-semibold mb-2">Arch Interio Studio</p>
+            <p className="text-black opacity-70">Lucknow, Uttar Pradesh</p>
+            <p className="text-black opacity-70 mt-2">Open Monday - Friday: 9:00 AM - 6:00 PM</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {/* Call to Action Section */}
+      <section
+        id="section"
+        className="py-24 sm:py-24 relative w-full justify-center flex flex-col items-center bg-black"
+      >
+        <div id="container" className="px-6 sm:px-24 w-full h-full">
+          <div className="text-center">
+            <h2 className="text-6xl text-white font-bebas leading-none mb-6">
+              {CallToAction.title}
+            </h2>
+            <p className="text-white text-xl mb-8 opacity-80">
+              {CallToAction.subtitle}
+            </p>
+            <Link
+              href={CallToAction.link}
+              className="inline-block px-6 font-bebas py-3 w-fit border-white border-2 text-xl hover:bg-white hover:text-black duration-300 text-white rounded-full"
+            >
+              {CallToAction.label}
+            </Link>
+          </div>
+        </div>
+      </section>
+    </React.Fragment>
   );
-} 
+};
+
+export default ContactPageClient; 

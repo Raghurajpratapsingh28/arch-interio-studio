@@ -1,12 +1,12 @@
 {
     "posts": [
         {
-            "title": "Best Interior Designers in Gurgaon: Sculpt Design Studio for Your Dream Space",
+            "title": "Best Interior Designers: Sculpt Design Studio for Your Dream Space",
             "slug": {
                 "current": "best-interior-designers-in-gurgaon"
             },
             "author": "Sculpt Design Studio",
-            "imageUrl": "/images/gurgaon-interior-designers.jpg",
+            "imageUrl": "/interior/i1.jpeg",
             "publishedAt": "2025-03-19",
             "categories": [
                 "Interior Design",
@@ -61,7 +61,7 @@
                 "current": "10-ways-to-add-luxury-to-your-home"
             },
             "author": "Sculpt Design Studio",
-            "imageUrl": "/images/add-luxury-to-home.jpg",
+            "imageUrl": "/interior/i11.jpeg",
             "publishedAt": "2023-08-21",
             "categories": [
                 "Interior Design",
@@ -116,7 +116,7 @@
                 "current": "18-best-home-styling-tips"
             },
             "author": "Sculpt Design Studio",
-            "imageUrl": "/images/home-styling-tips.jpg",
+            "imageUrl": "/rudra-group/rg20.jpeg",
             "publishedAt": "2023-07-20",
             "categories": [
                 "Interior Design",
@@ -172,7 +172,7 @@
                 "current": "modern-living-room-ideas"
             },
             "author": "Sculpt Design Studio",
-            "imageUrl": "/images/modern-living-room.jpg",
+            "imageUrl": "/Omax-Regency-Project/omax3.jpeg",
             "publishedAt": "2024-06-15",
             "categories": [
                 "Interior Design",
@@ -227,7 +227,7 @@
                 "current": "kitchen-design-trends-2025"
             },
             "author": "Sculpt Design Studio",
-            "imageUrl": "/images/kitchen-trends-2025.jpg",
+            "imageUrl": "/rudra-group/rg13.jpeg",
             "publishedAt": "2025-01-10",
             "categories": [
                 "Interior Design",
@@ -282,7 +282,7 @@
                 "current": "bedroom-retreats"
             },
             "author": "Sculpt Design Studio",
-            "imageUrl": "/images/bedroom-retreats.jpg",
+            "imageUrl": "/rudra-group/rg1.jpeg",
             "publishedAt": "2024-11-05",
             "categories": [
                 "Interior Design",
@@ -337,7 +337,7 @@
                 "current": "office-design-inspiration"
             },
             "author": "Sculpt Design Studio",
-            "imageUrl": "/images/office-design.jpg",
+            "imageUrl": "/interior/i5.jpeg",
             "publishedAt": "2025-02-20",
             "categories": [
                 "Interior Design",

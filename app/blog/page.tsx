@@ -9,7 +9,7 @@ const ParallaxHeader = () => (
   <div
     style={{
       backgroundImage:
-        'linear-gradient(rgba(30,30,30,0.5),rgba(30,30,30,0.5)), url("/images/books.jpg")',
+        'linear-gradient(rgba(30,30,30,0.5),rgba(30,30,30,0.5)), url("/interior/i6.jpeg")',
       backgroundAttachment: "fixed",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
