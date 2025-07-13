@@ -3,55 +3,63 @@
     "Content": [
         {
             "type": "textWithIllustration",
-            "excerpt": "Custom web applications built with modern technologies like React, Next.js, and TypeScript. We focus on performance, scalability, and user experience.",
-            "heading": "Web Development"
+            "excerpt": "The unique and artistic practice of creating structures, especially livable ones. Architecture awakens us with abstract designs in space and light that overcome its engineering, safety, function, climate, and economic limits.",
+            "heading": "Architecture"
         },
         {
             "type": "textWithIllustration",
-            "excerpt": "Beautiful and intuitive user interfaces designed with user experience in mind. From wireframes to high-fidelity prototypes.",
-            "heading": "UI/UX Design"
+            "excerpt": "We, as designers, use a wide range of abilities and technical expertise to create environments that anticipate our needs and appeal to our emotions. To create your interior, we work with a variety of disciplines, including architecture, graphic design, decorative arts, textiles, furniture, and lighting design.",
+            "heading": "Interior Designing"
         },
         {
             "type": "textWithIllustration",
-            "excerpt": "Robust backend systems and APIs built with Node.js, Python, and modern databases. Secure, scalable, and maintainable solutions.",
-            "heading": "Backend Development"
+            "excerpt": "Everything in interior design revolves around how we use spaces. It has a significant impact on how we live, work, play, and even recover on a daily basis. We plan and execute cosy homes, practical offices, and lovely public areas.",
+            "heading": "Interior Styling"
         },
         {
             "type": "textWithIllustration",
-            "excerpt": "Mobile applications for iOS and Android using React Native and Flutter. Cross-platform solutions that work seamlessly.",
-            "heading": "Mobile Development"
-        },
-        {
-            "type": "textWithIllustration",
-            "excerpt": "E-commerce solutions with payment processing, inventory management, and customer relationship tools.",
-            "heading": "E-commerce Solutions"
-        },
-        {
-            "type": "textWithIllustration",
-            "excerpt": "Digital marketing strategies including SEO, content marketing, and social media management to grow your online presence.",
-            "heading": "Digital Marketing"
+            "excerpt": "Function and fashion converge in the specialist field of furniture design. Furthermore, we truly feel that furnishings are among the most significant features of interior design. Furniture gives a room flair and personality in addition to adding purpose and practicality.",
+            "heading": "Furniture Designing"
         }
     ],
     "Gallery": {
         "_type": "gallery",
         "imageUrls": [
             {
-                "url": "/images/reactjs.png"
+                "url": "/interior/i1.jpeg"
             },
             {
-                "url": "/images/nextjs.png"
+                "url": "/interior/i2.jpeg"
             },
             {
-                "url": "/images/typescript.png"
+                "url": "/villa/v1.jpeg"
             },
             {
-                "url": "/images/nodejs.png"
+                "url": "/villa/v2.jpeg"
             },
             {
-                "url": "/images/mongodb.png"
+                "url": "/actutechtural-project/ap1.jpeg"
             },
             {
-                "url": "/images/tailwind.png"
+                "url": "/actutechtural-project/ap2.jpeg"
+            },
+            {
+                "url": "/bluetheme/bt1.jpeg"
+            },
+            {
+                "url": "/bluetheme/bt2.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg1.jpeg"
+            },
+            {
+                "url": "/rudra-group/rg2.jpeg"
+            },
+            {
+                "url": "/Omax-Regency-Project/omax1.jpeg"
+            },
+            {
+                "url": "/Omax-Regency-Project/omax2.jpeg"
             }
         ]
     },

@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const founders = [
   {
-    name: "Vardha Aggarwal",
+    name: "Rupal yadav",
     description:
       "Our principle architect, a graduate from IP university, is a person who only thinks about design, making the client happy about every nook and corner of the house. She likes to update the team with every intricate detail. She is the best critic making her and their team perfect in every task.",
     image: "/images/bruno.jpg",
   },
   {
-    name: "Chirag Gupta",
+    name: "Vatsalya bajpai",
     description:
       "Co-founder and creative lead, Chirag brings a unique vision and passion for architecture and design. His leadership ensures every project is executed with precision and creativity.",
     image: "/images/bruno1.png",
