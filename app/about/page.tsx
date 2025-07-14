@@ -7,7 +7,7 @@ const founders = [
     name: "Rupal yadav",
     description:
       "Our principle architect, a graduate from IP university, is a person who only thinks about design, making the client happy about every nook and corner of the house. She likes to update the team with every intricate detail. She is the best critic making her and their team perfect in every task.",
-    image: "/founder/founder1.jpeg",
+    image: "/Founder/founder1.jpeg",
   },
   {
     name: "Vatsalya bajpai",
