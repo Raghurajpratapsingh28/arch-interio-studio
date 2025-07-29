@@ -47,25 +47,6 @@ const FloatingContactBar = () => {
       >
         <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5Zm4.25 2.25A6.25 6.25 0 1 1 5.75 12 6.25 6.25 0 0 1 12 5.75Zm0 1.5A4.75 4.75 0 1 0 16.75 12 4.75 4.75 0 0 0 12 7.25Zm6.5 1.25a1 1 0 1 1-1-1 1 1 0 0 1 1 1Z"/></svg>
       </a>
-      {/* Sliding Contact Form - appears behind the button */}
-      <div
-        className={`fixed top-1/3 right-0 z-40 transition-transform duration-300 ${open ? "translate-x-0" : "translate-x-full"}`}
-        onMouseLeave={handleClose}
-        style={{ pointerEvents: open ? 'auto' : 'none' }}
-      >
-        <div className="bg-white w-80 p-8 rounded-l-3xl shadow-2xl border border-gray-200 flex flex-col gap-4">
-          <div className="flex justify-between items-center mb-2">
-            <h3 className="text-l font-bold">Contact Form</h3>
-            <button onClick={handleClose} className="text-gray-500 hover:text-black text-2xl rounded-full w-8 h-8 flex items-center justify-center transition-colors bg-gray-100 hover:bg-gray-200">&times;</button>
-          </div>
-          <form className="flex flex-col gap-4">
-            <input type="text" placeholder="Name*" className="border border-gray-300 rounded-xl px-2 py-1 focus:outline-none focus:ring-2 focus:ring-black/20 transition" required />
-            <input type="tel" placeholder="Phone*" className="border border-gray-300 rounded-xl px-2 py-1 focus:outline-none focus:ring-2 focus:ring-black/20 transition" required />
-            <textarea placeholder="Message*" className="border border-gray-300 rounded-xl px-2 py-1 focus:outline-none focus:ring-2 focus:ring-black/20 transition resize-none" rows={4} required />
-            <button type="submit" className="bg-black text-white rounded-xl py-2 mt-1 font-semibold hover:bg-gray-800 transition">SUBMIT</button>
-          </form>
-        </div>
-      </div>
     </div>
   );
 };
