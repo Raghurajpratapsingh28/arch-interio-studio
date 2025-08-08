@@ -52,7 +52,7 @@ const AboutSection = () => (
   <section className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-12 items-center">
     <Image
       src="/interior/i4.jpeg"
-      alt="About Interior"
+      alt="About Interior"  
       width={600}
       height={400}
       className="rounded-2xl shadow-2xl w-full object-cover scale-105 hover:scale-110 transition-transform duration-500"

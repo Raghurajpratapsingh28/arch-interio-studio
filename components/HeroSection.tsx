@@ -14,9 +14,10 @@ interface HeroSectionProps {
 
 // Array of hero images for the carousel
 const heroImages = [
-  "/actutechtural-project/ap12.jpeg",
+  
   "/actutechtural-project/ap13.jpeg",
   "/actutechtural-project/ap14.jpeg",
+  "/actutechtural-project/ap12.jpeg",
   "/rudra-group/rg4.jpeg",
   "/bluetheme/bt6.jpeg", 
   "/villa/v7.jpeg",
