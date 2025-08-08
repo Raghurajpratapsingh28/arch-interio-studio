@@ -12,8 +12,8 @@ const founders = [
   {
     name: "Vatsalya bajpai",
     description:
-      "Co-founder and creative lead, Chirag brings a unique vision and passion for architecture and design. His leadership ensures every project is executed with precision and creativity.",
-    image: "/images/bruno1.png",
+      "The visionary behind arch interio studio, brings a distinct blend of creativity, precision, and contextual sensitivity to every project. With a strong foundation in architecture and years of hands-on experience, we founded the studio with a clear mission — to craft timeless, functional spaces that elevate human experience. Driven by a passion for design excellence, He believes architecture should not only respond to its environment but also inspire. He personally lead each project from concept to completion, ensuring a deep understanding of client needs and an unwavering commitment to design integrity Under His leadership, the studio has delivered a wide spectrum of work — from contemporary residences to commercial and institutional landmarks — each reflecting a unique narrative, rich materiality, and thoughtful detail. Credentials: B.Arch, Amity University UP 7+ Years of experience",
+    image: "/Founder/founder2.jpeg",
   },
 ];
 
@@ -58,11 +58,11 @@ const AboutSection = () => (
       className="rounded-2xl shadow-2xl w-full object-cover scale-105 hover:scale-110 transition-transform duration-500"
     />
     <div className="bg-gradient-to-br from-white/80 to-gray-50/80 rounded-xl p-8 shadow-lg animate-fade-in">
-      <h2 className="text-4xl font-extrabold mb-6 text-gray-800">About Us</h2>
+      <h2 className="text-xl font-extrabold mb-6 text-gray-800">About Us</h2>
       <p className="mb-4 text-lg text-gray-700">
         Welcome to Arch Interio Studio, where creativity meets craftsmanship in interior design, construction, and architectural excellence. We specialize in transforming spaces into inspiring environments that reflect your unique vision and lifestyle. With a passion for innovative design, sustainable building practices, and meticulous attention to detail, our team of experienced architects, designers, and builders collaborates to deliver spaces that are both functional and aesthetically captivating.
       </p>
-      <p className="text-gray-700">
+      <p className="mb-4 text-lg text-gray-700">
         From modern residential interiors to cutting-edge commercial builds, we approach every project with a commitment to quality, precision, and client satisfaction. Our holistic process integrates architectural expertise, thoughtful interior design, and seamless construction to bring your ideas to life. Let us shape your space into a masterpiece that inspires and endures.
       </p>
     </div>
@@ -80,20 +80,20 @@ const FoundersSection = () => (
               <Image
                 src={founder.image}
                 alt={founder.name}
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
               />
               {/* Overlay for desktop */}
               <div className="hidden md:flex flex-col items-center justify-center absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-6 text-white rounded-2xl">
                 <h3 className="text-2xl font-bold mb-3">{founder.name}</h3>
-                <p className="text-base">{founder.description}</p>
+                <p className="text-base text-start ">{founder.description}</p>
               </div>
             </div>
             {/* Always show text below on mobile */}
             <div className="md:hidden px-4 pb-6">
               <h3 className="text-2xl font-bold mb-3 text-gray-800">{founder.name}</h3>
-              <p className="text-gray-600 text-lg">{founder.description}</p>
+              <p className=" text-base text-start text-gray-600 text-lg">{founder.description}</p>
             </div>
           </div>
         ))}
