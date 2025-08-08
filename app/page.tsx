@@ -26,7 +26,7 @@ export default async function Home() {
       <ServicesSection />
       <GallerySection gallery={Gallery} />
       {/* <PublicationsSection /> */}
-      <BlogSection />
+      {/* <BlogSection /> */}
       <FAQSection />
       <ExpertiseSection expertises={Expertises} />
       <ContactShowcaseSection />
