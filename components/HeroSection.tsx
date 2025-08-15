@@ -46,7 +46,7 @@ export default function HeroSection({ hero }: HeroSectionProps) {
   return (
     <section
       id="section"
-      className="h-screen w-full relative overflow-hidden"
+      className="h-[60vh] min-h-[300px] sm:h-screen w-full relative overflow-hidden"
     >
       <div id="container" className="w-full h-full relative">
         {/* Background Images with slide transition */}
@@ -56,13 +56,13 @@ export default function HeroSection({ hero }: HeroSectionProps) {
             src={image}
             alt={`Hero Background ${index + 1}`}
             fill
-            className={`w-full h-full object-cover absolute transition-transform duration-500 ease-in-out ${
+            className={`w-full h-full absolute transition-transform duration-500 ease-in-out ${
               index === currentImageIndex 
                 ? 'translate-x-0' 
                 : index < currentImageIndex 
                   ? '-translate-x-full' 
                   : 'translate-x-full'
-            }`}
+            } object-contain sm:object-cover`}
             priority={index === 0}
           />
         ))}

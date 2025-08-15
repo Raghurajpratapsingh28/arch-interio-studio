@@ -19,13 +19,13 @@ export default function ImageOverlaySection({ sectionImageOverlay }: ImageOverla
             {sectionImageOverlay.heading}
           </h3>
           <div className="absolute top-[25%] aspect-square w-[88vw] sm:w-[30vw] left-0">
-            <Image
+            {/* <Image
               src={sectionImageOverlay.imageOverlay}
               alt=""
               width={320}
               height={320}
               className="h-full object-cover w-full"
-            />
+            /> */}
           </div>
         </div>
       </div>
