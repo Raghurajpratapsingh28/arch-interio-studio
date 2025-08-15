@@ -9,33 +9,47 @@
     "Content": [
         {
             "type": "project",
-            "excerpt": "A modern blue-themed interior design project featuring contemporary aesthetics with sophisticated color palettes and innovative spatial solutions.",
-            "tagline": "Blue Theme",
-            "projectname": "Blue Theme Project",
-            "location": "Mumbai, India",
+            "excerpt": "Architectural project showcasing innovative design concepts, structural excellence, and sustainable building practices for modern construction.",
+            "tagline": "Architectural Project",
+            "projectname": "Architectural Project",
+            "location": "Pune, India",
             "url": "#",
             "imageUrls": [
                 {
-                    "url": "/bluetheme/bt1.jpeg"
+                    "url": "/actutechtural-project/ap1.jpeg"
                 },
                 {
-                    "url": "/bluetheme/bt2.jpeg"
+                    "url": "/actutechtural-project/ap2.jpeg"
                 },
                 {
-                    "url": "/bluetheme/bt3.jpeg"
+                    "url": "/actutechtural-project/ap3.jpeg"
                 },
                 {
-                    "url": "/bluetheme/bt4.jpeg"
+                    "url": "/actutechtural-project/ap4.jpeg"
                 },
                 {
-                    "url": "/bluetheme/bt5.jpeg"
+                    "url": "/actutechtural-project/ap5.jpeg"
                 },
                 {
-                    "url": "/bluetheme/bt6.jpeg"
+                    "url": "/actutechtural-project/ap6.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap7.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap8.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap9.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap10.jpeg"
+                },
+                {
+                    "url": "/actutechtural-project/ap11.jpeg"
                 }
             ]
-        },
-        {
+        },{
             "type": "project",
             "excerpt": "Comprehensive interior design project showcasing modern living spaces with elegant furnishings, optimal lighting, and functional layouts.",
             "tagline": "Interior Design",
@@ -83,6 +97,35 @@
         },
         {
             "type": "project",
+            "excerpt": "A modern blue-themed interior design project featuring contemporary aesthetics with sophisticated color palettes and innovative spatial solutions.",
+            "tagline": "Blue Theme",
+            "projectname": "Blue Theme Project",
+            "location": "Mumbai, India",
+            "url": "#",
+            "imageUrls": [
+                {
+                    "url": "/bluetheme/bt1.jpeg"
+                },
+                {
+                    "url": "/bluetheme/bt2.jpeg"
+                },
+                {
+                    "url": "/bluetheme/bt3.jpeg"
+                },
+                {
+                    "url": "/bluetheme/bt4.jpeg"
+                },
+                {
+                    "url": "/bluetheme/bt5.jpeg"
+                },
+                {
+                    "url": "/bluetheme/bt6.jpeg"
+                }
+            ]
+        },
+        
+        {
+            "type": "project",
             "excerpt": "Luxury villa design project featuring premium architectural elements, spacious layouts, and high-end finishes for sophisticated living.",
             "tagline": "Villa Design",
             "projectname": "Villa Project",
@@ -118,49 +161,7 @@
                 }
             ]
         },
-        {
-            "type": "project",
-            "excerpt": "Architectural project showcasing innovative design concepts, structural excellence, and sustainable building practices for modern construction.",
-            "tagline": "Architectural Project",
-            "projectname": "Acutechtural Project",
-            "location": "Pune, India",
-            "url": "#",
-            "imageUrls": [
-                {
-                    "url": "/actutechtural-project/ap1.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap2.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap3.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap4.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap5.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap6.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap7.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap8.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap9.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap10.jpeg"
-                },
-                {
-                    "url": "/actutechtural-project/ap11.jpeg"
-                }
-            ]
-        },
+        
         {
             "type": "project",
             "excerpt": "Corporate office design project for Rudra Group featuring modern workspace solutions, collaborative areas, and professional aesthetics.",
